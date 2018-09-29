@@ -20,5 +20,8 @@ Then compile doing:
 gcc -O3 -Wall -o cpubench cpubench.c -lgmp -lssl -lcrypto -fopenmp
 ```
 
+### Running
+
 You can now run your own benchmark with `sudo ./cpubench <number> <options>`. An example of this is `sudo ./cpubench 5000 --singlethreaded --nodigits`.
 
+To see further instructions you can do just `sudo ./cpubench` and all the options will be displayed.
